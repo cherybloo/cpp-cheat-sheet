@@ -1,12 +1,13 @@
 // #include [LIBRARY NAME]
-#include <iostream>
+// #include <iostream>
 // using namespace std; -> it makes sure that the compiler knows that we're reffering to this namespace
-using namespace std;
+// using namespace std;
 // declaring function here
+#include "MyLib.hpp"
 
-class Adventures{
-    private: // Access Modifiers
-        string name;
+class Adventures{ // The class
+    private: // Access specifier
+        string name; // Attribute (string variable)
     public:
         string getName() { return name; }
         void setName(string name){ this->name = name; }
