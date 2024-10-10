@@ -3,6 +3,7 @@
 // using namespace std; -> it makes sure that the compiler knows that we're reffering to this namespace
 // using namespace std;
 // declaring function here
+
 #include "MyLib.hpp"
 
 class Adventures{ // The class
